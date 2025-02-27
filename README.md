@@ -5,6 +5,7 @@
 This project is an Arduino-based robot car that operates in both manual and automatic modes. It uses:
 - **Arduino Uno** as the main controller
 - **Ultrasonic Sensor** for obstacle detection in automatic mode
+- **Servo Motor** to rotate ultrasonic sensor
 - **Bluetooth Module (HC-05/HC-06)** to connect with a smartphone for manual control
 - **Touch Sensor** to switch between manual and automatic modes
 
@@ -19,6 +20,7 @@ The Arduino Uno is programmed in **C++**, and the source code is available in th
 ## Components Used
 - **Arduino Uno**
 - **Ultrasonic Sensor (HC-SR04)**
+- **Servo Motor**
 - **Bluetooth Module (HC-05/HC-06)**
 - **Touch Sensor**
 - **Motor Driver (L298N)**
@@ -32,12 +34,7 @@ The Arduino Uno is programmed in **C++**, and the source code is available in th
 3. **Manual Mode**:
    - The car is controlled via a smartphone app using Bluetooth commands.
 4. **Automatic Mode**:
-   - The ultrasonic sensor detects obstacles and navigates autonomously.
-
-## Future Improvements
-- Adding an **OLED display** for real-time status updates.
-- Implementing **voice control** for manual mode.
-- Enhancing obstacle avoidance with additional sensors.
+   - The ultrasonic sensor detects obstacles and the robot car navigates autonomously.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
